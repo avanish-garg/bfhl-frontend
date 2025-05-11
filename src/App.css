@@ -1,0 +1,13 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+textarea {
+  margin-top: 1rem;
+  width: 100%;
+}
+select {
+  margin-top: 1rem;
+  width: 200px;
+  height: 100px;
+}
