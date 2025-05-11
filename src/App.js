@@ -12,7 +12,7 @@ function App() {
       const json = JSON.parse(input);
       setError('');
 
-      const res = await fetch("https://your-backend-url.onrender.com/bfhl", {
+      const res = await fetch("https://bfhl-backend-rypr.onrender.com/bfhl", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(json)
